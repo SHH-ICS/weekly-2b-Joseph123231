@@ -8,6 +8,14 @@
   </head>
 
   <body>
+        <!-- Numeric Textfield -->
+<form action="handler.php" style="text-align: center;" method="post">
+  <div class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+    <label class="mdl-textfield__label" for="sample2">Input radius</label>
+    <span class="mdl-textfield__error">Input is not a number!</span>
+  </div>
+  <!-- numeric text feild end-->
     
     <?php
     $userName = "";
