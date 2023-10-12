@@ -13,6 +13,4 @@ if variable1 < 0:
 if variable1 == 0:
     print("Please use a number other then ZERO")
     #if nothing is inputed then a message tells you to input a radius so the calculation can be done (NOT DONE) 
-if variable1 == None:
-    print("Please re-enter your radius and verify you have actuallt typed it")
 ### Need to make a scenario for input = nothing and input = letters ###
