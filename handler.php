@@ -9,15 +9,10 @@
 
   <body>
     <h1> Enter your radius in text field<h1>
-        <!-- Numeric Textfield -->
-<form action="handler.php" style="text-align: center;" method="post">
-  <div class="mdl-textfield mdl-js-textfield">
-    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
-    <label class="mdl-textfield__label" for="sample2">Input radius</label>
-    <span class="mdl-textfield__error">Input is not a number!</span>
-  </div>
-  <!-- numeric text feild end-->
-    
+        
+    <form>
+      <input type = "text">
+      <input type = "submit">
     <?php
     $userName = "";
     if ( isset( $_POST['radius'] ) ){
@@ -30,7 +25,7 @@
     <?php
     echo "hello world"
     ?>
-    
+    </form>
   </body>
   
 </html>
