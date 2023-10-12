@@ -11,7 +11,7 @@
   </div>
 </form>
   <body>
-    <h1> Enter your radius in text field<h1>
+
         
     <form>
     <?php
@@ -22,9 +22,6 @@
     echo "<h1>For a Circle of Radius ".$radius."</h1>\n";
     echo "<p>Area = \n";
     echo "<p>Circumference = \n";
-    ?>
-    <?php
-    echo "hello world"
     ?>
     </form>
   </body>
