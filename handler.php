@@ -8,6 +8,7 @@
   </head>
 
   <body>
+    <h1> Enter your radius in text field<h1>
         <!-- Numeric Textfield -->
 <form action="handler.php" style="text-align: center;" method="post">
   <div class="mdl-textfield mdl-js-textfield">
@@ -25,6 +26,9 @@
     echo "<h1>For a Circle of Radius ".$radius."</h1>\n";
     echo "<p>Area = \n";
     echo "<p>Circumference = \n";
+    ?>
+    <?php
+    echo "hello world"
     ?>
     
   </body>
