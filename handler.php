@@ -11,17 +11,19 @@
   </div>
 </form>
   <body>
-
         
     <form>
     <?php
-    $userName = "";
-    if ( isset( $_POST['radius'] ) ){
-      $radius = $_POST['radius'];
+    $userName = "userName";
+    if ( isset( $_GET['radius'] ) ){
+      $radius = $_GET['radius'];
     }
     echo "<h1>For a Circle of Radius ".$radius."</h1>\n";
     echo "<p>Area = \n";
     echo "<p>Circumference = \n";
+    ?>
+    <?php
+    echo "hello world"
     ?>
     </form>
   </body>
