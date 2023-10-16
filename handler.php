@@ -14,10 +14,12 @@
         
     <form>
     <?php
-    $userName = "userName";
-    if ( isset( $_GET['radius'] ) ){
-      $radius = $_GET['radius'];
+    $userName = "";
+    if ( isset( $_POST['radius'] ) ){
+      $radius = $_POST['radius'];
     }
+    $pi = 3.14
+    $area = pi * $radius ** 2
     echo "<h1>For a Circle of Radius ".$radius."</h1>\n";
     echo "<p>Area = \n";
     echo "<p>Circumference = \n";
