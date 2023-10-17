@@ -19,9 +19,10 @@
       $radius = $_POST['radius'];
     }
     $pi = 3.14
-    $area = pi * $radius ** 2
+    $Area = pi * $radius ** 2
+    $circumference = 2 * $pi *
     echo "<h1>For a Circle of Radius ".$radius."</h1>\n";
-    echo "<p>Area = \n";
+    echo "<p>Area = $Area \n";
     echo "<p>Circumference = \n";
     ?>
     <?php
