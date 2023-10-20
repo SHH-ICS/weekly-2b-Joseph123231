@@ -7,8 +7,9 @@
 
     <form>
     <?php
-    if ( isset( $_POST['userName'] ) ){
-      $radius = $_POST['userName'];
+var_dump($_POST);
+    if ( isset( $_POST['radius'] ) ){
+      $radius = $_POST['radius'];
     }
     $Area = 3.14 * ($radius ** 2);
     $circumference = 2 * 3.14 *$radius;
