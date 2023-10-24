@@ -4,7 +4,7 @@ try:
     area = variable1**2 * math.pi
     circumfrence = 2*math.pi*variable1
 except ValueError :
-    print("Your radius is NOT a number")
+    print("YOUR INPUT IS NOT VALID ")
 
 else:
     if variable1 < 0:
