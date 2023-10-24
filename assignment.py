@@ -9,7 +9,5 @@ except ValueError :
 else:
     if variable1 < 0:
         print("Please enter a number that is POSITIVE")
-    if variable1 == 0:
-        print("Please use a number other then ZERO")
-    if variable1 > 0:
+    if variable1 >= 0:
         print(f"Your circumferemce is {circumfrence} and your area is {area}.")
