@@ -13,11 +13,14 @@ var_dump($_POST);
     }
     $Area = 3.14 * ($radius ** 2);
     $circumference = 2 * 3.14 *$radius;
-    echo "<h1>For a Circle of Radius ".$radius."</h1>\n";
-    echo "<p>Area = ".$Area." \n";
-    echo "<p>Circumference = ".$circumference." \n";
+        if ($radius < 0){
+                 echo "can't calculate you radius because you entered a negative number";
+        }else {
+         echo "<h1>For a Circle of Radius ".$radius."</h1>\n";
+         echo "<p>Area = ".$Area." \n";
+         echo "<p>Circumference = ".$circumference." \n";
+        };
     ?>
     </form>
   </body>
-
 </html>
